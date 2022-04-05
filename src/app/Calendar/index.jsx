@@ -170,12 +170,14 @@ class Calendar extends React.PureComponent {
   render() {
     return (
       <div className={styles.calendarWrapper}>
-        <Mode
-          modes={this.props.modes}
-          active={this.state.mode}
-          onClick={this.onClickMode}
-        />
-        {this.returnHeader()}
+        <div className={styles.sticky}>
+          <Mode
+            modes={this.props.modes}
+            active={this.state.mode}
+            onClick={this.onClickMode}
+          />
+          {this.returnHeader()}
+        </div>
         {this.returnCalendar()}
       </div>
     );

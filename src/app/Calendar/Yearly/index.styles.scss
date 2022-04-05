@@ -1,6 +1,7 @@
 .yearlyWrapper {
   text-align: center;
-  padding-bottom: 100%;
+  height: 100vh;
+  padding-bottom: calc(100% - 50px);
 }
 
 .yearlyMonth {
