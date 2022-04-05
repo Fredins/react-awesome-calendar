@@ -4,6 +4,8 @@ import { getDate } from './date';
 let firstDayOfWeek = 0;
 let lastDayOfWeek = 6;
 
+// TODO fix October and November too many gray days
+
 // export const dateDiff = (start, end) => {
 //   const from = new Date(start.getUTCFullYear(), start.getUTCMonth(), start.getUTCDate());
 //   const to = new Date(end.getUTCFullYear(), end.getUTCMonth(), end.getUTCDate());
