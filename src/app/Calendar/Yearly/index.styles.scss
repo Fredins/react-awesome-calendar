@@ -1,7 +1,12 @@
 .yearlyWrapper {
   text-align: center;
-  height: 100vh;
-  padding-bottom: calc(100% - 50px);
+  height: 1200px;
+}
+
+@media only screen and (max-width: 426px) {
+    .yearlyWrapper {
+        height: 1800px;
+    }
 }
 
 .yearlyMonth {
