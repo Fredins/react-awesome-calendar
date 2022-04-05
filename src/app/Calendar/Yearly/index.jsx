@@ -15,7 +15,7 @@ export default class Yearly extends React.Component {
             style={{ cursor: 'pointer' }}
             onClick={() => this.props.onClickMonth(month)}
           >
-            <h3 className={styles.yearlyMonthName}>{getMonthName(month)}</h3>
+            <p className={styles.yearlyMonthName}>{getMonthName(month)}</p>
             <Monthly
               month={month}
               daysOfWeek={shortHandDays}
@@ -29,9 +29,7 @@ export default class Yearly extends React.Component {
 
   render() {
     return (
-      <div className={styles.yearlyCalendar}>
-        <div className={styles.yearlyMonthWrapper}>{this.returnCalendar()}</div>
-      </div>
+      <div className={styles.yearlyWrapper}>{this.returnCalendar()}</div>
     );
   }
 }

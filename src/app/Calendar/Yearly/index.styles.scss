@@ -1,8 +1,6 @@
-.yearlyCalendar {
+.yearlyWrapper {
   text-align: center;
-}
-
-.yearlyMonthWrapper {
+  padding-bottom: 100%;
 }
 
 .yearlyMonth {
@@ -15,6 +13,7 @@
   .yearlyMonthName {
     margin: 20px 0;
     text-align: left;
+    font-weight: bold;
   }
   .weekRow {
     height: 30px;
