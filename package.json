@@ -80,7 +80,9 @@
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
-    "webpack-md5-hash": "0.0.6"
+    "webpack-md5-hash": "0.0.6",
+    "typescript-language-server": "^0.9.7",
+    "vscode-langservers-extracted": "^4.1.0"
   },
   "jest": {
     "collectCoverage": true,
