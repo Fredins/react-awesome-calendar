@@ -24,9 +24,10 @@ button {
 }
 
 .calendarHeaderButtons {
-  overflow: auto;
   color: #ff3e52;
-  margin: 20px 0;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%
 }
 .calendarHeaderButtons button:nth-of-type(1) {
   float: left;
