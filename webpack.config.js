@@ -3,7 +3,11 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
     entry: path.join(__dirname, "src", "app", "index.js"),
-    output: { path: path.join(__dirname, "build"), filename: "index.js" },
+    output: { 
+        path: path.join(__dirname, "build"), 
+        filename: "index.js",
+        libraryTarget: 'commonjs2'
+    },
     resolve: { 
       modules: [path.resolve(__dirname), "node_modules"] ,
       extensions: [".js", ".jsx"],
