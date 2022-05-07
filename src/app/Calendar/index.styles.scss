@@ -37,11 +37,16 @@ button {
   font-weight: 700;
 }
 
+button:hover {
+  color: v.$text-main
+}
+
 .calendarHeaderButtons {
   color: v.$button-solid;
   display: inline-block;
   width: 100%
 }
+
 .calendarHeaderButtons button:nth-of-type(1) {
   float: left;
 }
@@ -57,10 +62,6 @@ button {
   padding: 10px 20px;
   color: v.$button-solid;
   transition-duration: 0.3s;
-}
-
-.modeButton:hover {
-  color: v.$text-main;
 }
 
 .modeButtonActive {
