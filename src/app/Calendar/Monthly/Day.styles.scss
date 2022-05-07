@@ -1,5 +1,8 @@
+@use "../variables" as v;
+
 .dayCell {
   display: inline-block;
+  background-color: v.$background-dark;
   box-sizing: border-box;
   position: relative;
   text-align: right;
@@ -18,7 +21,7 @@
     user-select: none; /* Standard */
   }
   .inactiveDay {
-    color: #b5b5b5;
+    color: v.$text-sec;
   }
 }
 
@@ -35,8 +38,8 @@
 
 .currentDay {
   border-radius: 50%;
-  color: white;
-  background-color: #ff3e52;
+  color: v.$text-main;
+  background-color: v.$button-solid;
 }
 
 .dayCellEventWrapper {

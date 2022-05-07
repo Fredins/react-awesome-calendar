@@ -1,3 +1,5 @@
+@use "../variables" as v;
+
 .yearlyWrapper {
   text-align: center;
   height: 1200px;
@@ -30,7 +32,7 @@
   }
   .inactiveDay {
     .currentDay {
-      color: #b5b5b5;
+      color: v.$text-main;
       display: unset;
       border-radius: unset;
       background-color: transparent;
@@ -56,6 +58,7 @@
       }
     }
     .dayText {
+      background-color: transparent;
       position: absolute;
       transform: translate(-50%, -50%);
       top: 50%;
@@ -70,7 +73,7 @@
 
 .calendarWrapper {
   width: 100%;
-  color: #202029;
+  color: v.$text-main;
 }
 
 @media only screen and (max-width: 426px) {
