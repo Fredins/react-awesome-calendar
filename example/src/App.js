@@ -15,6 +15,12 @@ function App() {
     <div className="App">
      <Calendar 
       events={events}
+      defaultState={{
+        mode: 'monthlyMode',
+        year: 2020,
+        month: 2,
+        day: 2,
+      }}
     /> 
     </div>
   );
