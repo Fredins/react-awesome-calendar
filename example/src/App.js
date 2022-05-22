@@ -5,8 +5,8 @@ import Calendar from 'react-awesome-calendar';
 const events = [{
   id: 1,
   color: '#B9ACF2',
-  from: '2020-04-03T18:00:00+00:00',
-  to: '2020-04-03T19:00:00+00:00',
+  from: '2020-04-03T04:00:00+00:00',
+  to: '2020-04-03T06:00:00+00:00',
   title: 'Seeing family',
 }];
 
